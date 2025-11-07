@@ -1,0 +1,21 @@
+CROSSREF PREPRINTS HARVEST — RUN SHEET
+Timestamp: 2025-11-07 08:49:10
+
+# Fill this section each time you run a harvest
+Date start (YYYY-MM-DD): 
+Date end   (YYYY-MM-DD): 
+Mailto used: 
+Prefixes (if any): 
+Batch days: 
+Rows per call: 
+Sort key: 
+Adaptive threshold: 
+Min window seconds: 
+DOI-first: enabled/disabled
+DOI-first threshold: 
+Incremental save dir: 
+Final outputs saved to: 
+
+Notes:
+- Warnings/API errors observed:
+- Any manual follow-ups required:

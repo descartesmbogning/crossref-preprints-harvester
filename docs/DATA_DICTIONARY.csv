@@ -1,0 +1,60 @@
+column_name,description
+doi,Digital Object Identifier for the record.
+url,General landing page URL (from Crossref).
+primary_url,Explicit full‑text URL from `resource.primary.URL` (if provided).
+title,Main title of the work.
+original_title,Original title if different.
+short_title,Shortened title (occasionally present).
+subtitle,Subtitle (if present).
+type,Crossref type (for this harvester → `posted-content`).
+subtype,"Granular subtype (e.g., `preprint`), not always populated."
+prefix,"DOI prefix (e.g., `10.1101`)."
+publisher,Publisher as recorded by Crossref.
+container_title,Container (journal/server) name if present.
+short_container_title,Abbreviated container title.
+institution_name,Institution string if provided by the depositor.
+created_date,Date Crossref created the record.
+posted_date,Date the posted‑content was posted.
+deposited_date,Date the record was (re)deposited.
+indexed_date,Date Crossref last indexed it.
+issued_date,Issued date (may be null for preprints).
+published_online_date,Online publication date (rare for preprints).
+published_print_date,Print publication date (rare).
+accepted_date,Acceptance date (rare for preprints).
+approved_date,Approval date (rare).
+authors,Human‑readable list of authors ('Given Family; ...').
+authors_json,Raw authors array as JSON string.
+editors_json,Editors JSON string.
+translators_json,Translators JSON string.
+chairs_json,Chairs JSON string.
+contributors_json,Contributors JSON string.
+license_url,Primary license URL if declared.
+licenses_json,All license blocks as JSON string.
+links_json,Crossref 'link' objects as JSON string.
+subjects,Semicolon‑joined subject terms.
+subjects_json,Raw subjects as JSON string.
+language,"Language code, if any."
+issn_json,ISSN list (JSON).
+issn_type_json,ISSN type objects (JSON).
+isbn_type_json,ISBN type objects (JSON).
+alternative_id_json,Alternative IDs (JSON).
+funder_json,Funder statements (JSON).
+reference_count,Number of references in this work.
+is_referenced_by_count,Times this work is cited (Crossref view).
+references_json,Reference list (JSON) when available.
+is_preprint_of,Semicolon‑separated DOIs of peer‑reviewed versions.
+has_preprint,Semicolon‑separated DOIs of preprints for a published work.
+is_version_of,Semicolon‑separated DOIs of other versions of the same work.
+relation_json,Full `relation` block as JSON string.
+update_type,"Update type if present (e.g., retraction)."
+update_policy,URL of the publisher’s update policy.
+update_to_json,Update targets as JSON string.
+archive_json,Archiving statements as JSON string.
+content_domain_json,`content-domain` object as JSON string.
+assertion_json,Depositor assertions as JSON string.
+institution_json,Full `institution` JSON string.
+group_title,Group title used by some servers.
+member,Crossref member ID for the depositor.
+source,Source of the Crossref record.
+score,Crossref relevance score.
+abstract_raw,Abstract in raw JATS/XML if present.
