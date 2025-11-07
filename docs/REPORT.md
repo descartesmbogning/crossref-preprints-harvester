@@ -47,4 +47,4 @@ This document explains, in plain language, how the Crossref preprints harvester 
 - **DOI prefix:** Leading part of a DOI (e.g., `10.1101`), often associated with a provider/server.
 - **Cursor paging:** Stable method for traversing large result sets in APIs.
 
-**Contact:** _Add your data steward contact here._
+**Contact:** _dmbogning15@gmail.com._
